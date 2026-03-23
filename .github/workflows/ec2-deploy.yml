@@ -1,13 +1,10 @@
 name: EC2 Deploy Pipeline
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
-    paths:
-      - 'apps/node-app/**'
-      - '.github/workflows/ec2-deploy.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:
