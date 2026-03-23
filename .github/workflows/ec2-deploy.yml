@@ -11,9 +11,6 @@ on:
         options:
           - node-app
           - python-flask-app
-  push:
-    branches:
-      - main
 
 jobs:
   deploy:
